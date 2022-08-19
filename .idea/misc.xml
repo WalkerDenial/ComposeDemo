@@ -10,7 +10,27 @@
         <entry key="../../../../../../layout/compose-model-1660211830569.xml" value="0.1" />
         <entry key="../../../../../../layout/compose-model-1660901120243.xml" value="0.1" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.111" />
+        <entry key="app/src/main/res/drawable/garden_tab_selector.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/ic_detail_back.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/ic_detail_share.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/ic_filter_list_24dp.xml" value="0.1205" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.111" />
+        <entry key="app/src/main/res/drawable/ic_my_garden_active.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/ic_my_garden_inactive.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/ic_plant_list_active.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/ic_plant_list_inactive.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/ic_plus.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/plant_list_tab_selector.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/tab_icon_color_selector.xml" value="0.1205" />
+        <entry key="app/src/main/res/layout/activity_garden.xml" value="0.12991927346115034" />
+        <entry key="app/src/main/res/layout/fragment_garden.xml" value="0.12991927346115034" />
+        <entry key="app/src/main/res/layout/fragment_plant_detail.xml" value="0.12991927346115034" />
+        <entry key="app/src/main/res/layout/fragment_plant_list.xml" value="0.12991927346115034" />
+        <entry key="app/src/main/res/layout/fragment_view_pager.xml" value="0.12991927346115034" />
+        <entry key="app/src/main/res/layout/list_item_garden_planting.xml" value="0.12991927346115034" />
+        <entry key="app/src/main/res/layout/list_item_plant.xml" value="0.12991927346115034" />
+        <entry key="app/src/main/res/menu/menu_plant_detail.xml" value="0.263023493360572" />
+        <entry key="app/src/main/res/menu/menu_plant_list.xml" value="0.263023493360572" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.111" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.111" />
       </map>

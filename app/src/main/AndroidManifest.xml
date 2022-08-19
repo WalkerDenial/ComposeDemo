@@ -25,6 +25,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".BasicKnowledgeActivity" />
+        <activity android:name="com.google.samples.apps.sunflower.GardenActivity" />
     </application>
 
 </manifest>
