@@ -12,8 +12,11 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material.Divider
+import androidx.compose.material.Scaffold
 import androidx.compose.material.Text
+import androidx.compose.material.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -41,24 +44,31 @@ val activities = listOf(
 
 @Composable
 fun ActivityList(context: Context) {
-    LazyColumn(Modifier.fillMaxWidth()) {
-        items(items = activities) { item ->
-            Column(
-                modifier = Modifier
-                    .fillMaxWidth()
-            ) {
+    Scaffold(
+        topBar = {
+            TopAppBar(title = {
                 Text(
-                    text = "Jetpack Compose ${item.name}", modifier = Modifier
-                        .fillMaxWidth()
-                        .clickable { context.startActivity(Intent(context, item.clazz)) }
-                        .padding(8.dp)
+                    text = "Jetpack Compose"
                 )
-                Divider(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(1.dp), color = Color.LightGray
-                )
+            })
+        },
+        content = {
+            LazyColumn(Modifier.fillMaxWidth()) {
+                itemsIndexed(items = activities) { index, item ->
+                    Column(modifier = Modifier.fillMaxWidth()) {
+                        Text(
+                            text = "${index + 1}. ${item.name}", modifier = Modifier
+                                .fillMaxWidth()
+                                .clickable { context.startActivity(Intent(context, item.clazz)) }
+                                .padding(16.dp)
+                        )
+                        Divider(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(1.dp), color = Color.LightGray
+                        )
+                    }
+                }
             }
-        }
-    }
+        })
 }
