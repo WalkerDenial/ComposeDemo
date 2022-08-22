@@ -3,9 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.wd.cd">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -27,8 +24,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BasicKnowledgeActivity" />
-        <activity android:name="com.google.samples.apps.sunflower.GardenActivity" android:theme="@style/Theme.Sunflower.NoActionBar" />
+        <activity android:name=".basic.BasicKnowledgeActivity" />
+        <activity
+            android:name=".sunflower.GardenActivity"
+            android:theme="@style/Theme.Sunflower.NoActionBar" />
     </application>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

@@ -23,7 +23,7 @@
         android:layout_height="match_parent"
         android:background="?attr/colorSurface"
         android:fitsSystemWindows="true"
-        tools:context="com.google.samples.apps.sunflower.GardenActivity"
+        tools:context=".sunflower.GardenActivity"
         tools:ignore="MergeRootFrame">
 
         <androidx.core.widget.NestedScrollView
@@ -172,15 +172,15 @@
 
     <data>
 
-        <import type="com.google.samples.apps.sunflower.data.Plant" />
+        <import type="com.wd.cd.sunflower.data.Plant" />
 
         <variable
             name="viewModel"
-            type="com.google.samples.apps.sunflower.viewmodels.PlantDetailViewModel" />
+            type="com.wd.cd.sunflower.viewmodels.PlantDetailViewModel" />
 
         <variable
             name="callback"
-            type="com.google.samples.apps.sunflower.plantdetail.PlantDetailFragment.Callback" />
+            type="com.wd.cd.sunflower.plantdetail.PlantDetailFragment.Callback" />
     </data>
 
 </layout>
