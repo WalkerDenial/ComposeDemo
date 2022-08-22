@@ -43,4 +43,9 @@
         <item name="android:textColor">?attr/colorOnSurface</item>
     </style>
 
+    <style name="Theme.MySoothe" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+    </style>
+
 </resources>

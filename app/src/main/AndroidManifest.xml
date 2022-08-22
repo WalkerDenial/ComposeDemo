@@ -28,6 +28,9 @@
         <activity
             android:name=".sunflower.GardenActivity"
             android:theme="@style/Theme.Sunflower.NoActionBar" />
+        <activity
+            android:name=".basiclayouts.BasicLayoutActivity"
+            android:theme="@style/Theme.MySoothe" />
     </application>
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
