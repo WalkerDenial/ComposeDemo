@@ -25,4 +25,6 @@
 
     <color name="red700">#dd0d3c</color>
     <color name="status_bar">#c20029</color>
+
+    <color name="purple_100">#FFE1BEE7</color>
 </resources>

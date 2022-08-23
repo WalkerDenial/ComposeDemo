@@ -39,6 +39,10 @@
         <activity
             android:name=".theming.ui.finish.ThemeFinishActivity"
             android:theme="@style/Theme.ComposeTheming" />
+
+        <activity
+            android:name=".animation.AnimationActivity"
+            android:theme="@style/Theme.Animation" />
     </application>
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

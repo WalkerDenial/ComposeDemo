@@ -20,6 +20,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
+import com.wd.cd.animation.AnimationActivity
 import com.wd.cd.basic.BasicKnowledgeActivity
 import com.wd.cd.basiclayouts.BasicLayoutActivity
 import com.wd.cd.sunflower.GardenActivity
@@ -43,7 +44,8 @@ val activities = listOf(
     ActivityModel("基础知识", BasicKnowledgeActivity::class.java),
     ActivityModel("SunFlower", GardenActivity::class.java),
     ActivityModel("基础布局", BasicLayoutActivity::class.java),
-    ActivityModel("主题设置", ThemeStartActivity::class.java)
+    ActivityModel("主题设置", ThemeStartActivity::class.java),
+    ActivityModel("为元素添加动画效果", AnimationActivity::class.java)
 )
 
 @Composable
