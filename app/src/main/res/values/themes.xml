@@ -5,9 +5,10 @@
         <item name="android:statusBarColor">@color/purple_700</item>
     </style>
 
-<!--    <style name="Theme.MySoothe" parent="Theme.MaterialComponents.DayNight">-->
-<!--        <item name="android:statusBarColor">@color/status_bar_color</item>-->
-<!--        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>-->
-<!--    </style>-->
+    <style name="Theme.ComposeTheming" parent="Theme.Material.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/status_bar</item>
+    </style>
+
+    <style name="Theme.Material.DayNight.NoActionBar" parent="@android:style/Theme.Material.Light.NoActionBar" />
 
 </resources>

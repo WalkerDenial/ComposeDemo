@@ -22,4 +22,7 @@
     <color name="sunflower_yellow_300">#f8f99f</color>
     <color name="sunflower_yellow_500">#ffff63</color>
     <color name="status_bar_color">#F0EAE2</color>
+
+    <color name="red700">#dd0d3c</color>
+    <color name="status_bar">#c20029</color>
 </resources>

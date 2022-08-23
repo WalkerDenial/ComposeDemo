@@ -23,6 +23,7 @@ import androidx.compose.ui.unit.dp
 import com.wd.cd.basic.BasicKnowledgeActivity
 import com.wd.cd.basiclayouts.BasicLayoutActivity
 import com.wd.cd.sunflower.GardenActivity
+import com.wd.cd.theming.ui.start.ThemeStartActivity
 import com.wd.cd.ui.theme.ComposeDemoTheme
 
 class MainActivity : ComponentActivity() {
@@ -41,7 +42,8 @@ data class ActivityModel<T : ComponentActivity>(val name: String, val clazz: Cla
 val activities = listOf(
     ActivityModel("基础知识", BasicKnowledgeActivity::class.java),
     ActivityModel("SunFlower", GardenActivity::class.java),
-    ActivityModel("基础布局", BasicLayoutActivity::class.java)
+    ActivityModel("基础布局", BasicLayoutActivity::class.java),
+    ActivityModel("主题设置", ThemeStartActivity::class.java)
 )
 
 @Composable

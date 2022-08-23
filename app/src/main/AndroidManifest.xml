@@ -31,6 +31,14 @@
         <activity
             android:name=".basiclayouts.BasicLayoutActivity"
             android:theme="@style/Theme.MySoothe" />
+
+        <activity
+            android:name=".theming.ui.start.ThemeStartActivity"
+            android:theme="@style/Theme.ComposeTheming" />
+
+        <activity
+            android:name=".theming.ui.finish.ThemeFinishActivity"
+            android:theme="@style/Theme.ComposeTheming" />
     </application>
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
