@@ -37,6 +37,7 @@ buildscript {
     }
     dependencies {
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$rootProject.navigationVersion"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:2.43"
     }
 }// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {

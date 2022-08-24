@@ -23,6 +23,7 @@ import androidx.compose.ui.unit.dp
 import com.wd.cd.animation.AnimationActivity
 import com.wd.cd.basic.BasicKnowledgeActivity
 import com.wd.cd.basiclayouts.BasicLayoutActivity
+import com.wd.cd.crane.home.CraneActivity
 import com.wd.cd.state.StateActivity
 import com.wd.cd.sunflower.GardenActivity
 import com.wd.cd.theming.ui.start.ThemeStartActivity
@@ -47,7 +48,8 @@ val activities = listOf(
     ActivityModel("基础布局", BasicLayoutActivity::class.java),
     ActivityModel("主题设置", ThemeStartActivity::class.java),
     ActivityModel("动画效果", AnimationActivity::class.java),
-    ActivityModel("状态", StateActivity::class.java)
+    ActivityModel("状态", StateActivity::class.java),
+    ActivityModel("高级状态和附带效应", CraneActivity::class.java)
 )
 
 @Composable
