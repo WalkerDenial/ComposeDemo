@@ -55,6 +55,10 @@
             android:name=".crane.details.CraneDetailsActivity"
             android:theme="@style/Theme.Crane" />
 
+        <activity
+            android:name=".rally.RallyActivity"
+            android:theme="@style/Theme.Rally" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="${googleMapsKey}" />

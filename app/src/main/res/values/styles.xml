@@ -14,7 +14,7 @@
   ~ limitations under the License.
   -->
 
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- To see how these attributes are used, please visit https://material.io/develop/android/theming/color/ -->
     <style name="Base.Theme.Sunflower" parent="Theme.MaterialComponents.DayNight.NoActionBar">
@@ -46,6 +46,12 @@
     <style name="Theme.MySoothe" parent="Theme.MaterialComponents.DayNight">
         <item name="android:statusBarColor">@color/status_bar_color</item>
         <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+    </style>
+
+    <style name="Theme.Rally" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowBackground">?attr/colorSurface</item>
     </style>
 
 </resources>

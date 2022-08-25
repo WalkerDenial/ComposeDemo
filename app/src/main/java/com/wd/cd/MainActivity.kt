@@ -24,6 +24,7 @@ import com.wd.cd.animation.AnimationActivity
 import com.wd.cd.basic.BasicKnowledgeActivity
 import com.wd.cd.basiclayouts.BasicLayoutActivity
 import com.wd.cd.crane.home.CraneActivity
+import com.wd.cd.rally.RallyActivity
 import com.wd.cd.state.StateActivity
 import com.wd.cd.sunflower.GardenActivity
 import com.wd.cd.theming.ui.start.ThemeStartActivity
@@ -49,7 +50,8 @@ val activities = listOf(
     ActivityModel("主题设置", ThemeStartActivity::class.java),
     ActivityModel("动画效果", AnimationActivity::class.java),
     ActivityModel("状态", StateActivity::class.java),
-    ActivityModel("高级状态和附带效应", CraneActivity::class.java)
+    ActivityModel("高级状态和附带效应", CraneActivity::class.java),
+    ActivityModel("Navigation", RallyActivity::class.java)
 )
 
 @Composable
