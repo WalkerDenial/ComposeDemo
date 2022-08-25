@@ -28,6 +28,7 @@ import com.wd.cd.crane.base.CraneTabBar
 import com.wd.cd.crane.base.CraneTabs
 import com.wd.cd.crane.base.ExploreSection
 import com.wd.cd.crane.data.ExploreModel
+import kotlinx.coroutines.launch
 
 typealias OnExploreItemClicked = (ExploreModel) -> Unit
 
@@ -48,12 +49,12 @@ fun CraneHome(
             CraneDrawer()
         }
     ) { padding ->
+        val scope = rememberCoroutineScope()
         CraneHomeContent(
             modifier = modifier.padding(padding),
             onExploreItemClicked = onExploreItemClicked,
             openDrawer = {
-                // TODO Codelab: rememberCoroutineScope step - open the navigation drawer
-                // scaffoldState.drawerState.open()
+                scope.launch { scaffoldState.drawerState.open() }
             }
         )
     }
